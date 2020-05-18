@@ -1,0 +1,32 @@
+page-buy {
+    .button-group{
+        text-align: center;
+        border-collapse: collapse;
+    }
+   
+    .btn{
+        width:40px;
+        height:40px;
+        font-size:20pt;
+        color:#3c40ff;
+        background:#a5e5ec;
+        border:1px solid white;
+        
+    }
+   
+    .act{
+       
+        width:auto;
+        
+    }
+
+    .buy{
+        font-size:16pt;
+        background:#a5e5ec;
+        height:40px;
+        color:#3c40ff;
+        border-radius:10px;
+      
+        padding:10px;
+    }
+}

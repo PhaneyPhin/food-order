@@ -1,0 +1,29 @@
+ion-navbar{
+    text-align: center;   
+}
+.price {
+    font-size: 18pt;
+    color: #53ce23;
+    float: right;
+}
+ion-card{
+    color:#3292b9;
+}
+.card-header{
+    color:#ef7821;
+}
+.toolbar-background,.tabs .tabbar {
+    background-color: #a5e5ec;
+  }
+  .tabbar a.tab-button[aria-selected=true] {
+    color: green;
+    .tab-button-icon {
+        color: green;
+    }
+}
+.tabbar a.tab-button {
+    color: #3c40ff;
+    .tab-button-icon {
+        color: #3c40ff;
+    }
+}

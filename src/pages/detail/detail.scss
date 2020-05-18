@@ -1,0 +1,27 @@
+page-detail {
+   
+    table{
+        width:100%;
+        font-size:10pt;
+    }
+    .name{
+        width:60%;
+    }
+    table,td,th,tr{
+        border:1px solid #a5d9f4;
+        text-align: center;
+        color:black;
+    }
+    td,th{
+        padding:10px;
+        
+    }
+    .btn{
+        background:#69c0e6;
+        border-radius: 20px;
+    }
+    th{
+        color:#ef7821;
+    }
+    
+}

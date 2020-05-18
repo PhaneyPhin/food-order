@@ -1,0 +1,38 @@
+page-getting-start {
+    h3{
+        text-align: center;
+        color: #009688;
+        font-family: -webkit-body;
+    }
+    ion-item{
+        border-radius: 8px;
+    }
+    ion-label{
+        font-size:14pt;
+    }
+    .btn{
+        background:#69c0e6;
+        border-radius: 20px;
+    }
+    ion-item{
+        height:20px !important;
+        border: 1px solid #009688 !important;
+    }
+    p.header{
+        color:#009688;
+        font-size:15pt;
+        text-align: center;
+        letter-spacing: 3px;
+        b{
+            color:black;
+        }
+    }
+    
+    .body{
+        background:linear-gradient(#a5d9f4,#ffffff,#a5d9f4)
+    }
+}
+
+ion-label{
+    color:orangered;
+}

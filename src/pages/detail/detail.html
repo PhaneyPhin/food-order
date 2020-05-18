@@ -1,0 +1,34 @@
+<!--
+  Generated template for the DetailPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+
+  <ion-navbar>
+    <ion-title>detail</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding>
+  <br><br><br>  
+  <table *ngIf="condition">
+    <tr>
+      <th class="name">Food Name</th><th>Price</th><th>Number</th><th>Total</th>
+    </tr>
+    <tr *ngFor="let item of ordered">
+      <td class="name">{{item.food_name}}</td><td>{{item.price}}&#3647;</td><td>{{item.num}}</td><td>{{item.price*item.num}}&#3647;</td>
+    </tr>
+    <tr>
+      <td></td><td colspan="2">Total</td><td>{{sum}}&#3647;</td>
+    </tr>
+  </table>
+  <br><br>
+  <button ion-button block (click)="checkBill()" *ngIf="condition" class="btn">Check Bill Now</button>
+  <p *ngIf="!condition" style="text-align: center">
+    Please ordered our foods
+  </p>
+</ion-content>

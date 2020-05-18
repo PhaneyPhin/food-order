@@ -1,0 +1,25 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>{{header}}</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content>
+  <ion-card *ngFor="let item of favorite" (click)="buy(item)">
+
+    <ion-card-header>
+      {{item.food_name}}
+    </ion-card-header>
+
+    <ion-card-content>
+      <!-- Add card content here! -->
+      <img src="{{url}}/imgs/foods/{{item.food_id}}.jpg"><br>
+      <p *ngIf="item.description!=null||item.description!=undefined">{{item.description}}</p><br>
+      <span class="price">{{item.price}} &#3647;</span> 
+      <br>
+    </ion-card-content>
+
+  </ion-card>
+
+
+</ion-content>
